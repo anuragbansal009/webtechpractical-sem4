@@ -1,0 +1,24 @@
+
+body {
+  background-color: #eae8e7;
+  color: #767270;
+}
+.sidebar {
+  color: #ffffff;
+  background-color: #1abc9c;
+}
+.sidebar .heading nav .button-collapse i {
+  background-color: #1abc9c;
+}
+.sidebar .heading nav .side-nav h3 {
+  color: #1abc9c;
+}
+.sidebar .heading nav .side-nav li a:hover {
+  color: #1abc9c;
+}
+.sidebar .info {
+  border-bottom: 1px solid #248673;
+}
+.custom-content-wrapper span {
+  color: #1abc9c;
+}

@@ -1,0 +1,141 @@
+body {
+	margin: 0;
+	background-color: rgb(1, 22, 39);
+	color: #FFFFFF
+}
+
+div * {
+	animation: fadeInAnimation ease-in-out 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/head_f.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+
+#title {
+	font-family: "Roboto Slab", serif;
+	color: white;
+	font-size: 36px;
+	font-weight: normal;
+	width: 780px;
+	text-align: center;
+	animation: fadeInAnimation ease-in-out 1s;
+	animation-iteration-count: 1;
+	animation-fill-mode: forwards;
+}
+
+#profile {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 100%;
+}
+
+#profile-picture {
+	background-image: url("../images/profile.jpg");
+	background-size: cover;
+	background-position: center;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	margin-top: -50px;
+	border: 1px solid white;
+	z-index: 10;
+}
+
+#profile-desc {
+	text-align: center;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	color: #FFFFFF;
+	line-height: 24px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #e6e6e6;
+}
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#listicle-body {
+	width: 66.67%;
+	position: relative;
+}
+
+.body-header {
+	font-family: "Roboto Slab", serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgb(255, 255, 0);
+}
+
+.paragraph-break {
+	height: 20px;
+}
+
+.body-number-container {
+	position: absolute;
+	right: 100%;
+}
+
+.body-number {
+	position: absolute;
+	right: 40px;
+	font-family: "Roboto Slab", serif;
+	font-size: 36px;
+	font-weight: bold;
+	color: rgba(255, 255, 0, 0.5);
+}
+
+.body-text {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+.body {
+	padding: 60px 0px;
+}
+
+a {
+	color: #42b4d6;
+	text-decoration: none;
+	font-weight: normal;
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 18px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 100%;
+}

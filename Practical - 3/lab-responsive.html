@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1"/>
+<link rel="stylesheet" href="/stylesheets/style.css" />
+<title>Practical 3: Web Technologies CS452 - Lab: Responsive Design</title>
+</head>
+
+<body>
+<h1>Practical 3: Web Technologies CS452</h1>
+<h2>Lab Objectives</h2>
+<ol>
+<li>Practice reading HTML.</li>
+<li>Practice writing CSS.</li>
+<li>Understand what responsive design is.</li>
+</ol>
+<h2>Lab: Responsive Design1</h2>
+
+<h2>Instructions</h2>
+<p><img src="homer.jpg" width="645" height="645" alt="The image"/></p>
+<p>Given the above image named <code>homer.jpg</code> and using only one HTML file named <code>index.html</code> and only one CSS file named <code>responsive.css</code>, create a web page where if you resize the browser screen width, a different part of the image will be rendered.  That is:</p>
+<ul>
+	<li>If the browser screen width is greater than 1600 pixels, display the top-left image of <code>homer.jpg</code></li>
+	<li>If the browser screen width is greater than 1400 pixels but less than or equal to 1600 pixels, display the top-right image of <code>homer.jpg</code></li>
+	<li>If the browser screen width is greater than 1200 pixels but less than or equal to 1400 pixels, display the bottom-left image of <code>homer.jpg</code></li>
+	<li>If the browser screen width is greater than 1000 pixels but less than or equal to 1200 pixels, display the last image, bottom-right of <code>homer.jpg</code></li>
+	<li>If the browser screen width is greater than 800 pixels but less than or equal to 1000 pixels, display the bottom-left image of <code>homer.jpg</code></li>
+	<li>If the browser screen width is greater than 600 pixels but less than or equal to 800 pixels, display the top-right image of <code>homer.jpg</code></li>
+	<li>If the browser screen width is less than or equal to 600 pixels, display the top-left image of <code>homer.jpg</code></li>
+</ul>
+
+<p>The entire image <code>homer.jpg</code> is 625px x 625px.</p>
+
+<h2>Lab: Responsive Design2</h2>
+
+<h2>Instructions</h2>
+<p><img src="software.png" width="640" height="480" alt="The image"/></p>
+<p>Given the above image named <code>software.png</code> and using only one HTML file named <code>index.html</code> and only one CSS file named <code>responsive.css</code>, create a web page where if you resize the browser screen width, a different part of the image will be rendered.  That is:</p>
+<ul>
+	<li>If the browser screen width is greater than 1200 pixels, display the top-left image of <code>software.png</code> (i.e., the one that reads "How the customer explained it")</li>
+	<li>If the browser screen width is greater than 1100 pixels but less than or equal to 1200 pixels, display the second image on the top row (i.e., "How the Project Leader understood it").</li>
+	<li>If the browser screen width is greater than 1000 pixels but less than or equal to 1100 pixels, display the third image on the top row (i.e., "How the Analyst designed it").</li>
+	<li>If the browser screen width is greater than 900 pixels but less than or equal to 1000 pixels, display the fourth image on the top row.</li>
+	<li>If the browser screen width is greater than 800 pixels but less than or equal to 900 pixels, display the last image on the top row.</li>
+	<li>If the browser screen width is greater than 700 pixels but less than or equal to 800 pixels, display the first image on the second row ("How the project was documented").</li>
+	<li>If the browser screen width is greater than 600 pixels but less than or equal to 700 pixels, display the second image on the second row.</li>
+	<li>If the browser screen width is greater than 500 pixels but less than or equal to 600 pixels, display the third image on the second row.</li>
+	<li>If the browser screen width is greater than 400 pixels but less than or equal to 500 pixels, display the fourth image on the second row.</li>
+	<li>If the browser screen width is less than or equal to 400 pixels, display the last image, bottom-right ("What the customer really needed").</li>
+</ul>
+
+<p>The entire image <code>software.png</code> is 640px x 480px.</p>
+<p>I am going to give you the HTML so you do not have to write it!  Copy and paste the following HTML below into an <code>index.html</code> in your <code>responsive</code> folder:</p>
+<pre>
+&lt;!DOCTYPE HTML&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+  &lt;title&gt;Homer&lt;/title&gt;
+  &lt;link rel="stylesheet" href="responsive.css"/&gt;
+  &lt;meta charset="utf-8" /&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+  &lt;div class="name of the Responsive Page"&gt;&lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p class="note">Caveat: you are NOT allowed to modify the HTML body!</p>
+
+<p>You must also save the <code>homer.jpg and software.jpg</code> image in the same location as your <code>index.html</code> folder.  Right-click on the image (see above) and do a "Save Image As..."</p>
+
+<p>Your job is to write <code>responsive.css</code>.</p>
+
+<h2>Readings and References</h2>
+<ul>
+	<li><a href="https://css-tricks.com/snippets/css/media-queries-for-standard-devices/" target="_blank"><span class="title">Media Queries for Standard Devices (css-tricks.com)</span></a></li>
+</ul>
+
+<h2>Assessment</h2>
+<p>This lab is worth 5 points.</p>
+<ul>
+	<li>(2 + 3 point) Completion of the <code>responsive.css</code> style sheet following all the instructions above</li>
+	<li>(-4 points) You modified the HTML that I provided for you.</li>
+	<li>(-4 points) You used a number of separate images for this lab.</li>
+</ul>
+
+</body>

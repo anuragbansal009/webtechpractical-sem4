@@ -1,0 +1,14 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+body {
+    font-family: 'Montserrat', sans-serif;
+ }
+
+ section:before {
+    height: 35px;
+    content: "";
+    display:block;
+}

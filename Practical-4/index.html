@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- BOOTSTRAP -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+   <link rel="stylesheet" href="styles.css">
+   <!-- BOOTSTRAP -->
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"></script>
+   <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+   <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+   <title>Football</title>
+</head>
+
+<body>
+   <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container container-fluid" style="width: 80%;">
+         <a class="navbar-brand" href="index.html"><img src="img/sports_soccer.png" width="20px" height="20px">
+            Football</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+               <li class="nav-item">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+               <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+               <li class="nav-item"><a class="nav-link" href="#plwin">PL Winners</a></li>
+               <li class="nav-item"><a class="nav-link" href="#uclwin">UCL Winners</a></li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                     data-bs-toggle="dropdown" aria-expanded="false">Other</a>
+                  <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
+                     <a class="dropdown-item" href="#stats">Match Stats</a>
+                     <a class="dropdown-item" href="#transfers">Top Transfers</a>
+                     <a class="dropdown-item" href="#news">News</a>
+                     <a class="dropdown-item" href="#feedback">Feedback</a>
+                  </div>
+               </li>
+               <li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Made
+                     by Anurag Bansal - CO19313 - CSE - 4th Sem</a>
+               </li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <!-- Header -->
+   <header>
+      <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+         <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+               aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+               aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+               aria-label="Slide 3"></button>
+         </div>
+         <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+               <img src="img/fifa.jpg" width="2000px" height="500px" class="d-block w-100"
+                  alt="2020 UEFA Champions League Winners">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">FIFA</h5>
+                  <p class="text-white">World</p>
+               </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img src="img/pl.jpg" width="2000px" height="500px" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">Premier League</h5>
+                  <p class="text-white">England</p>
+               </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+               <img src="img/ucl.jpg" width="2000px" height="500px" class="d-block w-100" alt="...">
+               <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-white">UEFA Champions League</h5>
+                  <p class="text-white">Europe</p>
+               </div>
+            </div>
+         </div>
+         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+         </button>
+         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+         </button>
+      </div>
+   </header>
+   <!-- Content -->
+   <!-- Alert -->
+   <section>
+      <br>
+      <div class="row d-flex justify-content-center">
+         <div class="alert alert-warning alert-dismissible fade show text-center" role="alert" style="width: 60%;">
+            <strong>Hey!</strong> Check out the links in navbar to directly scroll to the required section.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+         </div>
+      </div>
+   </section>
+   <!-- Content -->
+   <!-- Cards -->
+   <section class="py-5" id="plwin">
+      <div class="container">
+         <h1 class="mb-4">Premier League Winners</h1>
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col col-md-5 col-lg-4 col-sm-6">
+               <div class="card text-white bg-primary mb-3 border-light">
+                  <img src="img/lv2020.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Liverpool » 2019-20</h5>
+                     <p class="card-text">Top Scorer : Jamie Vardy (Leicester City) • 23<br>Runners Up :
+                        Manchester City
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-md-5 col-lg-4 col-sm-6">
+               <div class="card text-white bg-primary mb-3 border-light">
+                  <img src="img/mc2019.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Manchester City » 2018-19</h5>
+                     <p class="card-text">Top Scorer : Mohamed Salah (Liverpool) • 22<br>Runners Up : Liverpool
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col col-md-5 col-lg-4 col-sm-6">
+               <div class="card text-white bg-primary mb-3 border-light">
+                  <img src="img/mc2018.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Manchester City » 2017-18</h5>
+                     <p class="card-text">Top Scorer : Mohamed Salah (Liverpool) • 32<br>Runners Up : Manchester
+                        United
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+   <hr class="my-0" />
+   <!-- Content -->
+   <!-- cards - 2 -->
+   <section class="py-5 bg-primary" id="uclwin">
+      <div class="container">
+         <h2 class="mb-4 text-white">UEFA Champions League Winners</h2>
+         <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col">
+               <div class="card">
+                  <img src="img/bm2020.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Bayern Munich » 2019-20</h5>
+                     <p class="card-text">Runners Up : PSG<br>Top Scorer : Robert Lewandowski (Bayern Munich) •
+                        15
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="img/lv2019.jpeg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Liverpool » 2018-19</h5>
+                     <p class="card-text">Runners Up : Tottenham Hotspur<br>Top Scorer : Lionel Messi (FC
+                        Barcelona) • 12
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="img/rm2018.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Real Madrid » 2017-18</h5>
+                     <p class="card-text">Runners Up : Liverpool<br>Top Scorer : Cristiano Ronaldo (Real Madrid)
+                        • 15
+                     </p>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card">
+                  <img src="img/rm2017.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                     <h5 class="card-title">Real Madrid » 2016-17</h5>
+                     <p class="card-text">Runners Up : Juventus<br>Top Scorer : Cristiano Ronaldo (Real Madrid) •
+                        12
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </section>
+   <hr class="my-0" />
+   <!-- Content -->
+   <!-- Summary of last match -->
+   <section class="py-5 bg-light" id="stats">
+      <div class="container">
+         <h2 class="mb-4" id="uclts">Match Stats</h3>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        PSG Vs Manchester City
+                     </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="accordion-body">
+                        <h3 class="mb-4" id="uclts">Stats of PSG vs Man City</h3>
+                        UEFA Champions League Semi-Final 1st Leg<br>
+                        Played on 29 April, 2021
+                        <div class="d-flex justify-content-around">
+                           <div>
+                              <img src="img/psg.png" width="150px" height="150px"><br>
+                              <center><strong>PSG</strong><br>
+                                 <h1>1</h1>
+                              </center>
+                           </div>
+                           <div>
+                              <img src="img/mc.png" width="150px" height="150px"><br>
+                              <center><strong>Manchester City</strong><br>
+                                 <h1>2</h1>
+                              </center>
+                           </div>
+                        </div>
+                        <center>Possession</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar" style="width: 40%; background-color: #003366;"
+                              aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                           <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60"
+                              aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                        <br>
+                        <center>Shots</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar" style="width: 47%; background-color: #003366;"
+                              aria-valuenow="47" aria-valuemin="0" aria-valuemax="100">10</div>
+                           <div class="progress-bar bg-info" role="progressbar"
+                              style="width: 53%; background-color: #003366;" aria-valuenow="53" aria-valuemin="0"
+                              aria-valuemax="100">11</div>
+                        </div>
+                        <br>
+                        <center>Shots on Target</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar" style="width: 40%; background-color: #003366;"
+                              aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">4</div>
+                           <div class="progress-bar bg-info" role="progressbar" style="width: 60%" aria-valuenow="60"
+                              aria-valuemin="0" aria-valuemax="100">6</div>
+                        </div>
+                        <br>
+                        <center>Corners</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #003366;"
+                              aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">6</div>
+                           <div class="progress-bar bg-info" role="progressbar" style="width: 40%" aria-valuenow="40"
+                              aria-valuemin="0" aria-valuemax="100">4</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Real Madrid Vs Chelsea
+                     </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                     data-bs-parent="#accordionFlushExample">
+                     <div class="accordion-body">
+                        <h3 class="mb-4" id="uclts">Stats of Real Madrid vs Chelsea</h3>
+                        UEFA Champions League Semi-Final 1st Leg<br>
+                        Played on 28 April, 2021
+                        <div class="d-flex justify-content-around">
+                           <div>
+                              <img src="img/rm.svg" width="150px" height="150px"><br>
+                              <center><strong>Real Madrid</strong><br>
+                                 <h1>1</h1>
+                              </center>
+                           </div>
+                           <div>
+                              <img src="img/chelsea.png" width="150px" height="150px"><br>
+                              <center><strong>Chelsea</strong><br>
+                                 <h1>1</h1>
+                              </center>
+                           </div>
+                        </div>
+                        <center>Possession</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar"
+                              style="width: 51%; background-color: rgb(228, 226, 226); color: black" aria-valuenow="51"
+                              aria-valuemin="0" aria-valuemax="100">51%</div>
+                           <div class="progress-bar" role="progressbar" style="width: 49%" aria-valuenow="49"
+                              aria-valuemin="0" aria-valuemax="100">49%</div>
+                        </div>
+                        <br>
+                        <center>Shots</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar"
+                              style="width: 45%; background-color: rgb(228, 226, 226); color: black" aria-valuenow="45"
+                              aria-valuemin="0" aria-valuemax="100">9</div>
+                           <div class="progress-bar" role="progressbar" style="width: 55%" aria-valuenow="55"
+                              aria-valuemin="0" aria-valuemax="100">11</div>
+                        </div>
+                        <br>
+                        <center>Shots on Target</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar"
+                              style="width: 17%; background-color: rgb(228, 226, 226); color: black" aria-valuenow="17"
+                              aria-valuemin="0" aria-valuemax="100">1</div>
+                           <div class="progress-bar" role="progressbar" style="width: 83%" aria-valuenow="83"
+                              aria-valuemin="0" aria-valuemax="100">5</div>
+                        </div>
+                        <br>
+                        <center>Corners</center>
+                        <div class="progress" style="height: 20px;">
+                           <div class="progress-bar" role="progressbar"
+                              style="width: 40%; background-color: rgb(228, 226, 226); color: black" aria-valuenow="60"
+                              aria-valuemin="0" aria-valuemax="100">4</div>
+                           <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="40"
+                              aria-valuemin="0" aria-valuemax="100">6</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                     Manchester United Vs AS Roma
+                  </button>
+               </h2>
+               <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                     <h3 class="mb-4" id="uclts">Stats of Manchester United Vs AS Roma</h3>
+                     UEFA Europa League Semi-Final 1st Leg<br>
+                     Played on 30 April, 2021
+                     <div class="d-flex justify-content-around">
+                        <div>
+                           <img src="img/mu.png" width="150px" height="150px"><br>
+                           <center><strong>Manchester United</strong><br>
+                              <h1>6</h1>
+                           </center>
+                        </div>
+                        <div>
+                           <img src="img/asr.png" width="150px" height="150px"><br>
+                           <center><strong>AS Roma</strong><br>
+                              <h1>2</h1>
+                           </center>
+                        </div>
+                     </div>
+                     <center>Possession</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 64%; background-color: red;"
+                           aria-valuenow="64" aria-valuemin="0" aria-valuemax="100">64%</div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar"
+                           style="width: 36%; background-color: rgb(129, 23, 23);" aria-valuenow="36" aria-valuemin="0"
+                           aria-valuemax="100">36%</div>
+                     </div>
+                     <br>
+                     <center>Shots</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 80%; background-color: red;"
+                           aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">20</div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar"
+                           style="width: 20%; background-color: rgb(129, 23, 23);" aria-valuenow="20" aria-valuemin="0"
+                           aria-valuemax="100">5</div>
+                     </div>
+                     <br>
+                     <center>Shots on Target</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 78%; background-color: red;"
+                           aria-valuenow="78" aria-valuemin="0" aria-valuemax="100">11</div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar"
+                           style="width: 22%; background-color: rgb(129, 23, 23);" aria-valuenow="22" aria-valuemin="0"
+                           aria-valuemax="100">3</div>
+                     </div>
+                     <br>
+                     <center>Corners</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar" style="width: 75%; background-color: red;"
+                           aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">6</div>
+                        <div class="progress-bar progress-bar-striped" role="progressbar"
+                           style="width: 25%; background-color: rgb(129, 23, 23);" aria-valuenow="25" aria-valuemin="0"
+                           aria-valuemax="100">2</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="accordion-item">
+               <h2 class="accordion-header" id="flush-headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                     data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                     Villarreal CF Vs Arsenal
+                  </button>
+               </h2>
+               <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                  data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                     <h3 class="mb-4" id="uclts">Stats of Villarreal CF Vs Arsenal</h3>
+                     UEFA Europa League Semi-Final 1st Leg<br>
+                     Played on 30 April, 2021
+                     <div class="d-flex justify-content-around">
+                        <div>
+                           <img src="img/vl.png" width="150px" height="150px"><br>
+                           <center><strong>Villarreal CF</strong><br>
+                              <h1>2</h1>
+                           </center>
+                        </div>
+                        <div>
+                           <img src="img/as.png" width="150px" height="150px"><br>
+                           <center><strong>Arsenal</strong><br>
+                              <h1>1</h1>
+                           </center>
+                        </div>
+                     </div>
+                     <center>Possession</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar"
+                           style="width: 47%; background-color: yellow; color: black;" aria-valuenow="47"
+                           aria-valuemin="0" aria-valuemax="100">47%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 53%; background-color: red;"
+                           aria-valuenow="53" aria-valuemin="0" aria-valuemax="100">53%</div>
+                     </div>
+                     <br>
+                     <center>Shots</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar"
+                           style="width: 50%; background-color: yellow; color: black;" aria-valuenow="50"
+                           aria-valuemin="0" aria-valuemax="100">9</div>
+                        <div class="progress-bar" role="progressbar" style="width: 50%; background-color: red;"
+                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">9</div>
+                     </div>
+                     <br>
+                     <center>Shots on Target</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar"
+                           style="width: 75%; background-color: yellow; color: black;" aria-valuenow="75"
+                           aria-valuemin="0" aria-valuemax="100">6</div>
+                        <div class="progress-bar" role="progressbar" style="width: 25%; background-color: red;"
+                           aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">2</div>
+                     </div>
+                     <br>
+                     <center>Corners</center>
+                     <div class="progress" style="height: 20px;">
+                        <div class="progress-bar" role="progressbar"
+                           style="width: 50%; background-color: yellow; color: black;" aria-valuenow="50"
+                           aria-valuemin="0" aria-valuemax="100">3</div>
+                        <div class="progress-bar" role="progressbar" style="width: 50%; background-color: red;"
+                           aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">3</div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+      </div>
+
+      </div>
+   </section>
+   <hr class="my-0" />
+
+   <!-- Table -->
+   <!-- transfers -->
+   <section class="py-5 bg-primary" id="transfers">
+      <div class="container">
+         <h2 class="mb-4 text-white">Top Transfers Of All Time</h3>
+         <div class="table-responsive justify-content-evenly row">
+         <table class="table table-striped table-hover table align-middle table-secondary">
+            <thead>
+               <tr>
+                 <th scope="col"></th>
+                 <th scope="col">Player Name</th>
+                 <th scope="col">Transfer Fee</th>
+                 <th scope="col">Year</th>
+               </tr>
+             </thead>
+            <tbody>
+               <tr>
+                  <td align="center"><div><img src="img/fcb.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                   </svg>&nbsp;&nbsp;&nbsp;<img src="img/psg.png" width="20px" height="20px"></div></td>
+                  <td>Neymar</td>
+                  <td>€ 222,000,000</td>
+                  <td>2017</td>
+               </tr>
+               <tr>
+                  <td align="center"><div><img src="img/asm.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                   </svg>&nbsp;&nbsp;&nbsp;<img src="img/psg.png" width="20px" height="20px"></div></td>
+                  <td>Kylian Mbappé</td>
+                  <td>€ 180,000,000</td>
+                  <td>2018</td>
+               </tr>
+               <tr>
+                  <td align="center"><div><img src="img/lv.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                   </svg>&nbsp;&nbsp;&nbsp;<img src="img/fcb.png" width="20px" height="20px"></div></td>
+                  <td>Philippe Coutinho</td>
+                  <td>€ 145,000,000</td>
+                  <td>2018</td>
+               </tr>
+               <tr>
+                  <td align="center"><div><img src="img/slb.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                   </svg>&nbsp;&nbsp;&nbsp;<img src="img/atm.png" width="20px" height="20px"></div></td>
+                  <td>João Félix</td>
+                  <td>€ 126,000,000</td>
+                  <td>2019</td>
+               </tr>
+               <tr>
+                  <td align="center"><div><img src="img/atm.png" width="20px" height="20px">&nbsp;&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                     <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                   </svg>&nbsp;&nbsp;&nbsp;<img src="img/fcb.png" width="20px" height="20px"></div></td>
+                  <td>Antoine Griezmann</td>
+                  <td>€ 120,000,000</td>
+                  <td>2019</td>
+               </tr>
+               
+            </tbody>
+         </table>
+</div>
+      </div>
+   </section>
+   <hr class="my-0" />
+
+      <!-- News -->
+      <section class="py-5" id="news">
+         <div class="container">
+            <h2 class="mb-4">News</h3>
+            <div class="d-flex align-items-start">
+               <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                 <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">ESL</button>
+                 <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">UEFA</button>
+                 <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">FIFA</button>
+                 <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">PL</button>
+               </div>
+               <div class="tab-content" id="v-pills-tabContent">
+                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                  With 15 teams in the European Super League (ESL) not facing qualification or relegation, critics said it would have devalued the game because it was unfair and uncompetitive. However, a future winner of the Premier League would not necessarily have qualified for the ESL if they were not a permanent member.                
+                  If this were the case, that team would miss out on millions of pounds in revenue. The ESL attracted widespread criticism from pundits, players, MPs and most football bodies not involved. Fans of the clubs involved held several protests outside their grounds.
+                  <br><br>
+                  The president of Uefa (the Union of European Football Associations), Aleksander Ceferin, had warned that participating clubs could be banned from European competition, and their players prevented from appearing at the Euros and the World Cup.
+                  Mr Ceferin welcomed the English clubs' reversal, saying, "the important thing now is that we move on, rebuild the unity that the game enjoyed before this, and move forward together".
+               </div>
+                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                    The Champions League final will be held in Istanbul on May 29 as planned despite a coronavirus surge in Turkey which has led to the country announcing a third lockdown, UEFA told AFP on Friday. European football’s governing body insisted that the continent’s showpiece match would stay in the Turkish city following claims from broadcaster RMC, which shows the Champions League in France, and British tabloid the Daily Mail that a venue change was being considered. UEFA told AFP that it had been assured that the lockdown, which began on Thursday and is set to run until May 17, “should not have any impact on the match", which will take place at the Ataturk Olympic Stadium with a “limited number of spectators".
+                    <br><br>
+                    UEFA added that it “will continue to work closely with the Turkish Football Federation and the local and national authorities to stage the match safely".
+                  </div>
+                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">Hisense, the world-renowned technology company, has entered into a partnership with FIFA to become an Official Sponsor of the FIFA World Cup Qatar 2022™, creating an exclusive connection between the tournament’s worldwide audience in unique and compelling ways.
+                  <br><br>
+                  By joining the roster of Commercial Affiliates for the upcoming tournament, Hisense will be involved in a programme that will range from on-site engagement opportunities and logo visibility across various platforms to global advertising campaigns. The collaboration, which began in 2017 prior to the FIFA World Cup™ in Russia, also provides Hisense with an occasion to present specially created, video-on-demand programming to its customers using past FIFA World Cup content, delivered through its integrated VIDAA smart TV platform.</div>
+                 <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                  The Premier League has rescheduled the penultimate round of fixtures to midweek so that all clubs can have one game with fans before the end of the season.
+                  Under the current roadmap out of lockdown, a limited number of fans will be allowed to return to stadiums from May 17.
+                  <br><br>
+                  Match Round 37 will now take place in the midweek of May 18 & 19, having originally been due to take place on the weekend of May 15 & 16.
+                  Further details regarding new kick-off times will be announced in due course, the Premier League said.
+                 </div>
+               </div>
+             </div>
+   </div>
+   </section>
+             <hr class="my-0" />
+
+   <!-- Feedback -->
+   <!-- Form -->
+   <section class="py-5 bg-primary" id="feedback">
+      <div class="container">
+         <h2 class="mb-4 text-white">Provide Feedback</h3>
+         <p><button class="btn btn-primary" type="button" disabled>
+               <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+               <span class="visually-hidden">Loading...</span>
+            </button>
+            <button class="btn btn-light text-primary" type="button" data-bs-toggle="collapse"
+               data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+               <strong>Feedback</strong>
+            </button>
+         </p>
+         <div class="collapse" id="collapseExample">
+            <div class="card card-body">
+               <form class="row g-3">
+                  <div class="col-md-6">
+                     <label for="inputName4" class="form-label">Name</label>
+                     <input type="text" class="form-control" id="inputName4">
+                  </div>
+                  <div class="col-md-6">
+                     <label for="inputEmail4" class="form-label">Email</label>
+                     <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                  <div class="col-12">
+                     <label for="inputAddress" class="form-label">Address</label>
+                     <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address Here">
+                  </div>
+                  <div class="col-12">
+                     <label for="inputAddress2" class="form-label">Address 2</label>
+                     <input type="text" class="form-control" id="inputAddress2" placeholder="Sector/Area">
+                  </div>
+                  <div class="col-md-6">
+                     <label for="inputCity" class="form-label">City</label>
+                     <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                     <label for="inputState" class="form-label">State</label>
+                     <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>...</option>
+                     </select>
+                  </div>
+                  <div class="col-md-2">
+                     <label for="inputZip" class="form-label">Zip</label>
+                     <input type="text" class="form-control" id="inputZip">
+                  </div>
+                  <div class="col-md-9">
+                     <label for="exampleFormControlTextarea1" class="form-label">Enter Suggestions
+                        Here</label>
+                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
+                  <div class="col-md-6">
+                     <label for="customRange1" class="form-label">How would you rate this
+                        site?</label>
+                     <input type="range" class="form-range" id="customRange1">
+                     <div class="d-flex bd-highlight">
+                        <div class="p-2 w-100 bd-highlight">0</div>
+                        <div class="p-2 flex-shrink-1 bd-highlight">5</div>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                           Send me a copy of my response
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-12">
+                     <button type="submit" class="btn btn-primary">Submit</button>
+                     <button type="reset" class="btn btn-danger form-control-clear form-control-feedback">Clear</button>
+                     <button class="btn btn-primary" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        <span class="visually-hidden">Loading...</span>
+                     </button>
+                  </div>
+               </form>
+            </div>
+         </div>
+      </div>
+   </section>
+   <!-- Footer -->
+   <footer class="py-5">
+      <div class="container">
+         <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4">
+               <strong>
+                  <p class="m-0 text-primary">Made by Anurag Bansal</p>
+                  <p class="m-0 text-primary">Roll No: CO19313</p>
+                  <p class="m-0 text-primary">Web Technology Practical (CS-452)</p>
+                  <p class="m-0 text-primary">Semester: 4th</p>
+               </strong>
+            </div>
+            <div class="col-lg-4 col-md-4">
+               <strong>
+                  <p class="m-0 text-primary">Practical - 4</p>
+                  <p class="m-0 text-primary">Made using Bootstrap 5.0.0</p>
+               </strong>
+            </div>
+            <div class="col-lg-4 col-md-4">
+               <strong>
+                  <p class="m-0 text-primary">Available on GitHub at:</p>
+                  <p class="m-0 text-primary"><a href="https://github.com/anuragbansal009/webtechpractical-sem4">GitHub
+                        Link</a></p>
+               </strong>
+            </div>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>

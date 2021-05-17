@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #10 c: Sticky page</title>
+    <script>
+        window.onbeforeunload = function () {
+            setTimeout(() => { }, 10);
+            return "Are you sure you want to Exit?";
+        }
+    </script>
+    <style>
+        header {
+            background-color: rgb(1, 22, 39);
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        .button {
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        .button1 {
+            background-color: white;
+            color: black;
+            border: 5px solid #FFFF00;
+            font-weight: 1000;
+        }
+
+        .button1:hover {
+            background-color: #FFFF00;
+            color: rgb(1, 22, 39);
+        }
+        .footer {
+            color: rgb(1, 22, 39);
+        }
+    </style>
+</head>
+
+<body>
+    <h1><center>Practical - 5</center></h1>
+    <h3><center>Exercise #10 c</center></h3>
+    <header>
+        
+        <div id="title">
+            <div><a href="https://github.com/anuragbansal009/webtechpractical-sem4"><button class="button button1">My Github Repository for this practical</button></a>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div>
+            Made by Anurag Bansal<br>
+            CO19313<br>
+            CSE 4th Sem<br>
+            Web Technology
+        </div>
+    </footer>
+
+</body>
+
+</html>

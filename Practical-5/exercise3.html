@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #3: Changing images</title>
+    <script>
+        function imagechange() {
+            var s = document.getElementById("country");
+            var img = document.getElementById("img");
+            img.src = "images/" + s.options[s.selectedIndex].value;
+            img.alt = s.options[s.selectedIndex].text;
+        }
+    </script>
+</head>
+<body>
+<form>
+    <select name="country" id="country" onchange="imagechange();">
+        <option value="selectimage.png">Select</option>
+        <option value="norwayflag.png">Norway</option>
+        <option value="indiaflag.png">India</option>
+        <option value="usaflag.png">USA</option>
+    </select>
+</form>
+<img id="img" src="images/selectimage.png" style="border: 1px solid black"/>
+</body>
+</html>

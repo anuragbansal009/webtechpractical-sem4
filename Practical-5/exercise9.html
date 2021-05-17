@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #9: Labyrinth game</title>
+    <script src="labyrinth.class.js"></script>
+    <script src="game.js"></script>
+
+    <style>
+        .wall {
+            height: 40px;
+            width: 40px;
+            background-color: grey;
+            display: inline-block;
+            margin-top: -4px;
+            margin-bottom: 0px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        .empty {
+            height: 40px;
+            width: 40px;
+            background-color: white;
+            display: inline-block;
+            margin-top: -4px;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        .start {
+            height: 40px;
+            width: 40px;
+            background-image: url(images/hero.png);
+            display: inline-block;
+            margin-top: -4px;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            position: absolute;
+        }
+        .goal {
+            height: 40px;
+            width: 40px;
+            background-color: yellow;
+            display: inline-block;
+            margin-top: -4px;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+        #map {
+            height: 199px;
+            width: 237px;
+            margin-top: -6px;
+            position: absolute;
+            border-style: solid;
+        }
+    </style>
+</head>
+<body onload="printDisplay()">
+<div id="map"></div>
+</body>
+</html>

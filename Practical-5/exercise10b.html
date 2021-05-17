@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise #10 b: Infinite windows</title>
+    <script>
+        function buttonclick() {
+        for (var i = 0; i < 20000; i++) {
+            newWindow = window.open("data: Hello World!", "_blank", "height=100,width=600", false);  
+        }
+    }
+    </script>
+</head>
+<body>
+    <button type="button" onclick="buttonclick()">Click Me!</button>
+</body>
+</html>

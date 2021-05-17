@@ -1,9 +1,5 @@
-<html>
-  <head>
-    <title>Practical - 5
-    </title>
-  </head>
-  <body>
+# webtechpractical-sem4
+Practical - 5
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise1.html">Exercise - 1</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise2.html">Exercise - 2</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise2b.html">Exercise - 2b</a><br>
@@ -18,6 +14,3 @@
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise10a.html">Exercise - 10a</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise10b.html">Exercise - 10b</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/exercise10c.html">Exercise - 10c</a><br>
-
-  </body>
-</html>

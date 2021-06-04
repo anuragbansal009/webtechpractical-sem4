@@ -1,0 +1,19 @@
+// NOTE TO STUDENT: You should NOT modify this file unless instructed by the
+// course staff.
+{
+  "name": "Evil Extension",
+  "version": "1.0",
+  "description": "Changes all there/their/they'res to the wrong version of the word",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["page.js"]
+    }
+  ],
+  "icons": {
+    "16": "evil.png",
+    "48": "evil.png",
+    "128": "evil.png"
+  },
+  "manifest_version": 2
+}

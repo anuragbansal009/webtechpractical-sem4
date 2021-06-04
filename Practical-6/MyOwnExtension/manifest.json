@@ -1,0 +1,18 @@
+{
+  "name": "Anurag's Extension",
+  "version": "1.0",
+  "description": "Merge Chrome tabs into a single window and Mute all Tabs as well. If already in a single window this will mute all the tabs.",
+  "icons": {
+    "48": "evil.png",
+    "128": "evil.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": "evil.png",
+    "default_title": "Anurag's Extension"
+  },
+  "manifest_version": 2
+}

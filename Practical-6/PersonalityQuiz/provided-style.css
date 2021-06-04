@@ -1,0 +1,108 @@
+/**
+
+  NOTE TO STUDENT:
+  Please do not modify this file!
+
+  Please add your CSS to style.css instead: This will help to grade your
+  work because your style edits are all in one place.
+
+**/
+
+article {
+  margin: auto;
+  width: 700px;
+}
+
+#author {
+  font-size: 14px;
+}
+
+body {
+  color: #222222;
+  font-family: 'Proxima Nova', 'Helvetica', 'Arial', sans-serif;
+  font-size: 18px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 42px;
+  margin: 18px 0;
+}
+
+header h1 {
+  font-size: 32px;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid #cccccc;
+  height: 80px;
+}
+
+header div,
+header h1 {
+  display: flex;
+  flex-grow: 1;
+}
+
+header div,
+header div span,
+header h1 {
+  display: flex;
+  align-content: space-between;
+  align-items: center;
+}
+
+header div {
+  justify-content: flex-end;
+}
+
+header div span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  background-color: #ffee00;
+  height: 50px;
+  width: 50px;
+  font-weight: bold;
+  margin: 0 3px;
+  transform: rotate(-30deg);
+}
+
+header h1 {
+  color: #ee3322;
+  font-family: 'Helvetica', sans-serif;
+  justify-content: flex-start;
+  margin: 0;
+}
+
+.choice-grid img.checkbox {
+  margin-top: 5px;
+  height: 20px;
+  width: 20px;
+}
+
+p {
+  margin: 18px 0;
+}
+
+.question-name {
+  align-items: center;
+  background-image: url('./images/background.gif');
+  display: flex;
+  height: 425px;
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.question-name h1 {
+  background-color: rgba(255,255,255, 0.9);
+  color: black;
+  font-family: 'Pangolin', 'Trebuchet MS', cursive;
+  font-size: 60px;
+  padding: 10px;
+  max-width: 75%;
+}

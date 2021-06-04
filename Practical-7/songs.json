@@ -1,4 +1,29 @@
 {
+  "immigrant": {
+    "songUrl": "https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs/ImmigrantSong.mp3",
+    "title": "Immigrant Song - Led Zepplin",
+    "artist": "Led Zepplin"
+  },
+  "numb": {
+    "songUrl": "https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs/Numb.mp3",
+    "title": "Numb - Linkin Park",
+    "artist": "Linkin Park"
+  },
+  "burn": {
+    "songUrl": "https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs/BurnTheHouseDown.mp3",
+    "title": "Burn The House Down - AJR",
+    "artist": "AJR"
+  },
+  "american": {
+    "songUrl": "https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs/AmericanIdiot.mp3",
+    "title": "American Idiot - Green Day",
+    "artist": "Green Day"
+  },
+  "highway": {
+    "songUrl": "https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs/HighwayToHell.mp3",
+    "title": "Highway To Hell - AC/DC",
+    "artist": "AC/DC"
+  },
   "cranes": {
     "songUrl": "https://yayinternet.github.io/hw4-music/songs/solange-cranes-kaytranada.mp3",
     "title": "Cranes in the Sky [KAYTRANADA Remix]",

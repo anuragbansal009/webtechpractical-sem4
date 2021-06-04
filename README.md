@@ -8,3 +8,5 @@ Web Technology Practicals - -Semester 4
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-3/index.html">Practical - 3</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-4/index.html">Practical - 4</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/">Practical - 5</a><br>
+<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/PersonalityQuiz/index.html">Practical - 5</a><br>
+<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/songs.json">Practical - 7</a><br>

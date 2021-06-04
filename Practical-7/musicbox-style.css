@@ -1,0 +1,72 @@
+/*
+TODO(you): Write any additional styles you need here.
+*/
+#loading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  #loading h2{
+    color: #e2e2e2;
+    font-size: 2em;
+    font-style: italic;
+  }
+  
+  #musicScreen {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    position: relative;
+  }
+  #gif-container{
+    height: 100%;
+    position: relative;
+  }
+   #foreground{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: gray;
+    position: absolute;
+    height:100%;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  
+  #background{
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color:rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  #footer{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #footer #play{
+    height: 60px;
+    width: 60px;
+    position:relative;
+  }
+  
+  #footer #pause{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+  }
+  

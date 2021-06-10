@@ -10,3 +10,4 @@ Web Technology Practicals - -Semester 4
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-5/">Practical - 5</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/">Practical - 6</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/index.html">Practical - 7</a><br>
+<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-8/">Practical - 8</a><br>

@@ -1,5 +1,5 @@
 # webtechpractical-sem4
-Web Technology Practicals - -Semester 4
+Web Technology Practicals - Semester 4 - CS 452
 
 <a href ="https://anuragbansal009.github.io/webtechpractical-sem4/">https://anuragbansal009.github.io/webtechpractical-sem4/</a><br><br>
 

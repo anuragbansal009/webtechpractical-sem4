@@ -1,0 +1,57 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="P3.xsd">
+	<xs:element name="order">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element type="xs:int" name="order_id" />
+				<xs:element type="xs:string" name="description" />
+				<xs:element type="xs:date" name="request_date" />
+				<xs:element name="item" maxOccurs="20" minOccurs="1">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="book">
+								<xs:complexType>
+									<xs:sequence>
+										<xs:element type="xs:int" name="book_id" />
+										<xs:element type="xs:string" name="book_name" />
+										<xs:element name="genre">
+											<xs:simpleType>
+												<xs:restriction base="xs:string">
+													<xs:enumeration value="Science-Fiction" />
+													<xs:enumeration value="Mystery" />
+													<xs:enumeration value="Thriller" />
+													<xs:enumeration value="Drama" />
+												</xs:restriction>
+											</xs:simpleType>
+										</xs:element>
+										<xs:element type="xs:date" name="publish_date" />
+										<xs:element name="authors" maxOccurs="5" minOccurs="1">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element type="xs:string" name="bio" />
+													<xs:element type="xs:string" name="first_name" />
+													<xs:element type="xs:string" name="last_name" />
+													<xs:element type="xs:string" name="pen_name" minOccurs="0" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element type="xs:int" name="quantity" />
+							<xs:element name="price">
+								<xs:simpleType>
+									<xs:restriction base="xs:int">
+										<xs:minInclusive value="0" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

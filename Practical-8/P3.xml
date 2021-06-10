@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<order>
+  <order_id>12345678</order_id>
+  <description>This is the order description.</description>
+  <request_date>2021-06-07</request_date>
+  
+  <!-- First Item -->
+    <item>
+    <book>
+      <book_id>001</book_id>
+      <book_name>Harry Potter and the Cursed Child</book_name>
+      <genre>Drama</genre>
+      <publish_date>2017-07-25</publish_date>
+      <authors>
+        <bio>Joanne Rowling CH, OBE, HonFRSE, FRCPE, FRSL, better known by her pen name J. K. Rowling, is a British author, philanthropist, film producer, television producer, and screenwriter.</bio>
+        <first_name>J.K.</first_name>
+        <last_name>Rowling</last_name>
+      </authors>
+      <authors>
+        <bio>John Richard Tiffany OBE is an English theatre director. He directed the internationally successful productions Harry Potter and the Cursed Child, Black Watch and Once.</bio>
+        <first_name>John</first_name>
+        <last_name>Tiffany</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>357</price>
+  </item>
+
+  <!-- Second Item -->
+  <item>
+    <book>
+      <book_id>002</book_id>
+      <book_name>Black Holes: The Reith Lectures</book_name>
+      <genre>Science-Fiction</genre>
+      <publish_date>2016-07-11</publish_date>
+      <authors>
+        <bio>Stephen William Hawking CH CBE FRS FRSA was an English theoretical physicist, cosmologist, and author who was director of research at the Centre for Theoretical Cosmology at the University of Cambridge at the time of his death.</bio>
+        <first_name>Stephen</first_name>
+        <last_name>Hawking</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>99</price>
+  </item>
+
+  <!-- Third Item -->
+  <item>
+    <book>
+      <book_id>003</book_id>
+      <book_name>And Then There Were None</book_name>
+      <genre>Mystery</genre>
+      <publish_date>2017-10-05</publish_date>
+      <authors>
+        <bio>Dame Agatha Mary Clarissa Christie, Lady Mallowan, DBE was an English writer known for her 66 detective novels and 14 short story collections, particularly those revolving around fictional detectives Hercule Poirot and Miss Marple.</bio>
+        <first_name>Agatha</first_name>
+        <last_name>Christie</last_name>
+        <pen_name>Mary Westmacott</pen_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>177</price>
+  </item>
+
+  <!-- Fourth Item -->
+  <item>
+    <book>
+      <book_id>004</book_id>
+      <book_name>A Game of Thrones: Book 1 (A Song of Ice and Fire)</book_name>
+      <genre>Thriller</genre>
+      <publish_date>2011-03-31</publish_date>
+      <authors>
+        <bio>George Raymond Richard Martin, also known as GRRM, is an American novelist and short story writer, screenwriter, and television producer. He is the author of the series of epic fantasy novels A Song of Ice and Fire, which was adapted into the Emmy Award-winning HBO series Game of Thrones.</bio>
+        <first_name>George</first_name>
+        <last_name>R.R. Martin</last_name>
+        <pen_name>GRRM</pen_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>388</price>
+  </item>
+
+  <!-- Fifth Item -->
+  <item>
+    <book>
+      <book_id>005</book_id>
+      <book_name>The Godfather</book_name>
+      <genre>Mystery</genre>
+      <publish_date>2009-07-02</publish_date>
+      <authors>
+        <bio>Mario Gianluigi Puzo was an American author, screenwriter, and journalist of Italian descent. He is known for his crime novels about the Italian-American Mafia and Sicilian Mafia, most notably The Godfather, which he later co-adapted into a film trilogy directed by Francis Ford Coppola.</bio>
+        <first_name>Mario</first_name>
+        <last_name>Puzo</last_name>
+        <pen_name>Mario Cleri</pen_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>329</price>
+  </item>
+
+  <!-- Sixth Item -->
+  <item>
+    <book>
+      <book_id>006</book_id>
+      <book_name>The Fellowship of the Ring</book_name>
+      <genre>Science-Fiction</genre>
+      <publish_date>2012-11-01</publish_date>
+      <authors>
+        <bio>John Ronald Reuel Tolkien CBE FRSL was an English writer, poet, philologist, and academic, best known as the author of the high fantasy works The Hobbit and The Lord of the Rings.</bio>
+        <first_name>J.R.R.</first_name>
+        <last_name>Tolkien </last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>358</price>
+  </item>
+
+  <!-- Seventh Item -->
+  <item>
+    <book>
+      <book_id>007</book_id>
+      <book_name>The Family Upstairs</book_name>
+      <genre>Thriller</genre>
+      <publish_date>2020-02-10</publish_date>
+      <authors>
+        <bio>Lisa Jewell is a British author of popular fiction. Her books include Ralph's Party, Thirtynothing, After The Party, and later Then She Was Gone, The House We Grew Up In and The Girls in the Garden.</bio>
+        <first_name>Lisa</first_name>
+        <last_name>Jewell</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>374</price>
+  </item>
+
+  <!-- Eighth Item -->
+  <item>
+    <book>
+      <book_id>008</book_id>
+      <book_name>Treasure Island</book_name>
+      <genre>Drama</genre>
+      <publish_date>2013-01-01</publish_date>
+      <authors>
+        <bio>Robert Louis Stevenson was a Scottish novelist, essayist, poet and travel writer. He is best known for works such as Treasure Island, Strange Case of Dr Jekyll and Mr Hyde, Kidnapped and A Child's Garden of Verses.</bio>
+        <first_name>Robert Louis</first_name>
+        <last_name>Stevenson</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>142</price>
+  </item>
+
+  <!-- Ninth Item -->
+  <item>
+    <book>
+      <book_id>009</book_id>
+      <book_name>The Book Thief</book_name>
+      <genre>Mystery</genre>
+      <publish_date>2018-07-26</publish_date>
+      <authors>
+        <bio>Markus Zusak is an Australian writer with Austrian and German roots. He is best known for The Book Thief and The Messenger, two novels which became international bestsellers. He won the Margaret A. Edwards Award in 2014.</bio>
+        <first_name>Markus</first_name>
+        <last_name>Zusak</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>485</price>
+  </item>
+
+  <!-- Tenth Item -->
+  <item>
+    <book>
+      <book_id>010</book_id>
+      <book_name>Sooley</book_name>
+      <genre>Science-Fiction</genre>
+      <publish_date>2021-04-30</publish_date>
+      <authors>
+        <bio>John Ray Grisham Jr. is an American novelist, attorney, politician, and activist, best known for his popular legal thrillers. His books have been translated into 42 languages and published worldwide.</bio>
+        <first_name>John</first_name>
+        <last_name>Grisham</last_name>
+      </authors>
+    </book>
+    <quantity>1</quantity>
+    <price>587</price>
+  </item>
+</order>

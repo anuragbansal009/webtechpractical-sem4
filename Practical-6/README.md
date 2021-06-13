@@ -2,6 +2,12 @@
 
 # Practical - 6
 
+<br><br><br>
+<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/EvilExtension">Evil Extension</a><br>
+<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/PersonalityQuiz/index.html">Personality Quiz</a><br>
+<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/MyOwnExtension">Personal Extension</a><br>
+
+# Description
 You are required to complete three parts of the assignment:
 
 - **Personality Quiz**: This is a web page with a Buzzfeed-style personality test. Modify `index.html`, `style.css`, and `script.js` as necessary to complete the web page. 
@@ -11,8 +17,3 @@ You are required to complete three parts of the assignment:
   - `evil-extension/manifest.json` does not need to be modified.
 
 - **Persionalized Extension**: Make your Own Extension: Show some creativity.
-
-<br><br><br>
-<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/EvilExtension">Evil Extension</a><br>
-<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/PersonalityQuiz/index.html">Personality Quiz</a><br>
-<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/MyOwnExtension">Personal Extension</a><br>

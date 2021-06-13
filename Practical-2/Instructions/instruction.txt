@@ -1,0 +1,126 @@
+Part 1: Beverage Listicle: listicle.html
+
+A listicle(https://en.wikipedia.org/wiki/Listicle) is a somewhat trendy type of article that uses a list as its thematic structure.
+
+For Part 1, you will create a listicle web page that describes the “4 on-campus beverages you should be drinking” at CCET(DG). You should create the web page in listicle.html with styles defined in listicle-style.css
+
+1. Overall appearance
+A full-size screenshot of the entire page (with a screen width of 1280px) is linked below: see it.
+as2-fullpage.png
+
+Note that you do not have to type in the contents of the page.
+    The text of the article is contained within listicle-content.txt, which is included in your Homework 1 starter code.
+    Copy and paste the text of listicle-content.txt into your listicle.html file, then add the HTML tags necessary to style the page.
+    The images are also in the images/ directory of the Homework 1 starter code.
+
+2. Section measurements
+A full-size screenshot of the section measurement is linked below: see it.
+as2-measurements.png
+
+3. Font faces, sizes, and colors
+
+Page Title:
+
+1. The font face is 'Roboto Slab' and the fallback font is serif.
+2. The font size is 36px.
+3. The font weight is normal (not bold).
+4. The font color is white.
+5. The title is vertical and center aligned to the header image.
+
+Profile Text:
+1. The font face is 'Source Sans Pro' and the fallback   font is sans-serif.
+2. The font size is 18px.
+3. The font weight for the author name (“Rupali”) is bold
+4. The font style for the last updated (“Last updated Apr 7, 2017”) is italic.
+5. The font color is rgb(51, 51, 51).
+6. The line height 24px.
+7. The gray line under the “Last updated” line is 10px under the text, 2px wide, and the color is #e6e6e6.
+
+Body Text:
+
+A. Heading
+1. The font face is 'Roboto Slab' and the fallback font is serif.
+2. The font size is 36px.
+3. The font weight is bold.
+4. The number’s color is rgba(0, 0, 0, 0.25).
+5. The title color is rgb(51, 51, 51).
+
+B. Address
+The address under the heading is a link and is described in the Links section.
+
+C. Paragraphs
+1. The font face is 'Source Sans Pro' and the fallback font is sans-serif.
+2. The font size is 18px.
+3. The line height 32px.
+4. The font color is rgb(51, 51, 51).
+
+D. Recommendation
+
+    The phrase “Recommendation:” is bold.
+
+
+4. Links:Here is a description of how links should work on your page:
+
+1. Each address of the page is a link. The URL for each link is listed in listicle-content.txt.
+2. The link color is #42b4d6.
+3. The link is not bold, and the link is not underlined 4. unless you hover over the link.
+5. When you hover over the link, the link becomes underlined.
+
+Hints:
+1. To remove an underline, you can use CSS property text-decoration: none;
+2. To add an underline, you can use CSS property text-decoration: underline;
+
+5. Images
+
+Header image
+The header is a background image (images/header.jpg).
+Note: To reference the image from the css/ folder, the path needs to be ../images/header.jpg
+1. The background does not repeat.
+2. The background’s size is set to cover.
+3. The background position is anchored to the top.
+4. Its height is 500px.
+4. There is a semi-transparent color overlay on top of the header image, which is rgba(0, 0, 0, .3)
+Note: You can achieve this using the following CSS rule:
+background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(../images/header.jpg);
+
+Profile image
+The profile image is images/vrk.png
+Note: To reference the image from the css/ folder, the path needs to be ../images/vrk.png
+1. Its width is 100px.
+2. It has rounded corners with radius 100%.
+3. It has a white border that is 1px thick.
+
+
+
+Part 2: Your Listicle: my-list.html
+
+Design your own listicle! You should write the content in my-list.html and the style in my-list-style.css.
+
+For full credit, please abide by the following:
+
+1. Cannot be an exact line-for-line copy of listicle.html
+2. Must have at least 3 items in your list
+3. Must correctly use display: flex at least once.
+4. You can, but do not have to, refer to listicle-style.css.
+
+You can spend as much or as little time on this part as you want, provided that your page does fall within the guidelines above.
+
+
+HTML and CSS style requirements
+
+For full credit, please abide by the following:
+
+1. Do not use JavaScript. There’s no need to use JavaScript in this assignment.
+2. Respect Separation of Concerns. Your HTML should describe the content of your page, and your CSS should describe your page’s appearance.
+3. Do not use an ordered list element (ol) to create the list layout. There’s nothing wrong with doing this, per se, but it involves some fairly esoteric CSS that we did not cover in class. We recommend you write out the numbers “1.”, “2.”, etc. in the HTML instead of using ol.
+3. Follow the best practices.
+4. Reduce redundancy in CSS. Try not to have too many redundant styles, if there are ways to use inheritance or special selectors to concisely define style rules.
+5. Match the given appearance as closely as possible. It’s fine if your web page is off from our description by a few pixels here and there, but noticeable differences may result in a lower homework score.
+6. Use descriptive names, consistent spacing, and otherwise follow good code hygiene.
+
+Ideas
+
+1. “Parallax” Effect: This is a trendy style where the background of a page is moved at a different speed than the foreground content while scrolling. In its simplest form, the background image stays in the same place as the page scrolls. Try implementing the parallax effect using CSS! You can check out this W3Schools demo(https://www.w3schools.com/howto/tryhow_css_parallax_demo.htm) to see how it works. Inspect the elements to see what CSS they use to get this effect.
+        Note: The example linked above is simple but not actually best practice. You can check out(https://developers.google.com/web/updates/2016/12/performant-parallaxing) this article to try a more sophisticated implementation.
+
+2.CSS animations: When the real Squarespace demo(https://bedford-demo.squarespace.com/) loads, notice how the text animates in and try experimenting with some CSS animations on your page.

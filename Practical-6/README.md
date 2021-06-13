@@ -1,6 +1,6 @@
 # webtechpractical-sem4
 
-# Personality quiz; Chrome extension 
+# Practical - 6
 
 You are required to complete three parts of the assignment:
 
@@ -12,7 +12,7 @@ You are required to complete three parts of the assignment:
 
 - **Persionalized Extension**: Make your Own Extension: Show some creativity.
 
-Practical - 6<br><br><br>
+<br><br><br>
 <a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/EvilExtension">Evil Extension</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/PersonalityQuiz/index.html">Personality Quiz</a><br>
 <a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-6/MyOwnExtension">Personal Extension</a><br>

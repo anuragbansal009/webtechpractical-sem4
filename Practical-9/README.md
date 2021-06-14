@@ -5,5 +5,5 @@
 
 ## PHP and MySQLi
 
--Project-Content Management System
--Website that you have to build that two area, Public Area and Admin area.
+- Project-Content Management System
+- Website that you have to build that two area, Public Area and Admin area.

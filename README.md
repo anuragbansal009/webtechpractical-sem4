@@ -11,3 +11,4 @@ Web Technology Practicals - Semester 4 - CS 452
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-6/">Practical - 6</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-7/index.html">Practical - 7</a><br>
 <a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-8/">Practical - 8</a><br>
+<a href="https://anuragbansal009.github.io/webtechpractical-sem4/Practical-9/">Practical - 9</a><br>

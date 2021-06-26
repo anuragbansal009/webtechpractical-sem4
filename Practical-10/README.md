@@ -1,5 +1,8 @@
 # Practical - 10
 
+<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-10/frozen_desserts">PHP Files</a><br>
+<a href="https://github.com/anuragbansal009/webtechpractical-sem4/tree/main/Practical-10/fd.sql">SQL File</a><br>
+
 ## FROZEN DESSERTS
 
 Tools Used:

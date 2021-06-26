@@ -1,0 +1,70 @@
+div {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    margin-right: 30%;
+    margin-left: 30%;
+    vertical-align: middle;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    box-shadow: 0 10px 20px rgba(09, 41, 98, 0.19);
+    border-radius: 15px;
+    color: white;
+    border: 10px solid #094198;
+    border-radius: 15px;
+}
+
+body {
+    background-color: #03BFB5;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button,
+.button {
+    background-color: #03BFB5;
+    border: 0;
+    padding: 10px;
+}
+
+.input {
+    font-size: 22px;
+    text-align: center;
+    opacity: 0.5;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+button:link,
+button:visited,
+.button:link,
+.button:visited {
+    text-decoration: none;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+button:hover,
+button:active,
+.button:hover,
+.button:active {
+    background-color: white;
+    color: #4AB8F9;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+input:hover,
+input:active {
+    opacity: 1;
+}
